@@ -1,0 +1,9 @@
+Biologia tester: antipiratska ochrana
+
+1. obmedzit program podla nazvu pocitaca
+	1.1: vieme hostname a nie sme v DB 			=> OK pridame sa
+	1.2: vieme hostname a sme v DB				=> OK
+	1.3: vieme hostname a nemozeme sa pridat	=> KONIEC
+	1.4: nevieme zistit hostname				=> KONIEC
+2. obmedzit cez webserver
+	nebudem obmedzovat nic iba budem posielat statistiky, lebo kazdemu budem posielat program zvlast, s inzeratmi to budem riesit cez web kvoli licencnym klucom (tam nebudem zvlast posielat)
